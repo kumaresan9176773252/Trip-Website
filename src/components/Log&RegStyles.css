@@ -1,0 +1,41 @@
+.signup-form-container {
+  margin: 8rem 6rem;
+  color: #000;
+  background-color: blueviolet;
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+.signup-form-container form {
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+  width: 80%;
+  margin: auto;
+}
+.signup-form-container input {
+  height: 3rem;
+  padding: 0 1rem;
+  margin-bottom: 2rem;
+  border-radius: 5px;
+  border: 1px solid #2a2a2a;
+}
+.signup-form-container button {
+  display: inline;
+}
+button {
+  margin: 1rem 0 0.8rem 0;
+  padding: 15px 20px;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 850px) {
+  .signup-form-container {
+    margin: 6rem 4rem;
+  }
+  .signup-form-container form {
+    padding-top: 2rem;
+    width: 90%;
+  }
+}
